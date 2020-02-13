@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Hind, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    font-weight: lighter;
+    width: 100%;   
+    background-color: #fafafa;
+    height: 90px;
+    position: fixed;
+    overflow: hidden;
+    z-index: 999;   
+}
+.navigation{
+    width: 50%;
+    height: 50px;
+    float: right;
+    margin-top:20px;
+    list-style: none;
+    
+    
+}
+.navigation>li{
+    float: left;
+    color:gray;
+    text-decoration: none;
+    text-transform: none;
+    font-size:18px;
+    margin-left: 60px;
+    line-height: 50px; 
+}
+.navigation>li>a:hover {
+    color:#17bed2;
+}
+.navigation>li>a{
+    color: #515769;
+}
+#home{
+    width: 100%;
+    height: 650px;
+    background-color: lightpink;
+    position: relative;
+}
+.name{
+    color:#515769;
+    font-size: 50px;
+    line-height: 1;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 200px;
+}
+
+
+.title{
+    color: #515769;
+    padding-top: 30px;
+    padding-left: 150px;
+    font-size: 26px;
+    line-height: 1;
+}
+.image>img{
+    width:350px;
+    height:490px;
+}
+.image{
+    width:400px;
+    height: 500px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 100px;
+}
+#about{
+    margin-top:100px;
+    width:100%;
+}
+.about-img{
+    width:517px;
+    height:600%;
+    float: left;
+    margin-left: 100px;
+}
+.about-img>img {
+    width: 400px;
+}
+.aboutme-text{
+    color: #515769;
+    font-weight: lighter;
+    line-height: 1;
+    width: 600px;
+    height: 700px;
+    float: left;
+    margin-left: 50px;
+}
+.aboutme>p{
+    padding-top: 10px;
+    line-height: 25px;
+}
+.aboutme>h2{
+    margin-bottom: 10px;
+    font-size:30px;
+}
+.aboutme>a{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 130px;
+    height: 15;
+    background-color: lightgray;
+    padding: 15px 15px 15px 15px;
+    color:white;
+}
+.aboutme>a:hover{
+    background-color: #17bed2;
+    color: white;
+}
+hr{
+    margin-top: 50px;
+}
+.skills{
+    margin-top: 50px;
+}
+.skills>ul>li{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+#experience{
+    margin-top: 100px;
+    width:100%;
+    height: 430px;
+    background-color: #fafafa;
+    float: left;
+    font-size: 30px;
+    color: #515769;
+}
+#experience>h2{
+    margin-left: 100px;
+}
+.title2{
+    font-weight: bold;
+    color: black;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.one{
+    width: 290px;
+    height: 300px;
+    background-color: white;
+    font-size: 18px;
+    color: #515769;
+    font-weight: lighter;
+    float: left;
+    margin-left: 100px;
+}
+.one:hover{
+    background-color: #17bed2;
+    color: white;
+    cursor: pointer;
+}
+.one>p{
+    margin-top: 20px;
+    padding: 0px 20px 0px 20px;
+}
+.two,.three,.four{
+    width: 290px;
+    height: 300px;
+    background-color: white;
+    float: left;
+    color: #515769;
+    font-size: 18px;
+    margin-left: 5px;
+    font-weight: lighter;
+}
+.two:hover,.three:hover,.four:hover{
+    background-color: #17bed2;
+    color: white;
+    cursor:pointer;
+}
+#blog{
+    float:left;
+}
+.blog{
+    margin-left:100px;
+}
+.blog>h2{
+    font-size: 30px;
+    columns: #515769;
+    margin-top: 100px;
+}
+.blog>p{
+    font-weight: lighter;
+    margin-right: 400px;
+}
+.blog-one{
+    margin-top: 30px;
+    float: left;
+    width: 380px;
+    height: 450px;
+    color: #515769;
+    margin-left: 100px;
+}
+.blog-two,.blog-three{
+    margin-top: 30px;
+    width: 380px;
+    height: 450px;
+    color:#515769;
+    margin-left: 15px;
+    float: left;
+}
+.blog-one>img,.blog-two>img,.blog-three>img{
+    width: 300px;
+    height: 250px;
+}
+.blog-one>p,.blog-two>p,.blog-three>p{
+    margin-top: 10px;
+}
+.read-more{
+    color:#515769;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: 10px;
+    display: block;
+    cursor: pointer;
+}
+.read-more:hover{
+    color: #17bed2;
+}
+#contact{
+    color:#515769;
+    float: left;
+    background-color: #fafafa;
+    margin-top: 100px;
+    width: 100%;
+}
+.contact-page>p{
+    width: 600px;
+    margin-left: 100px;
+}
+.contact-page>h2{
+    margin-left: 100px;
+}
+.contact-info{
+    margin-top:50px;
+    margin-left: 100px;
+}
+.contact-info>div{
+    float: left;
+}
+.contact-info>div:not(.location){
+    margin-left: 200px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-top: 50px;
+}
+footer>p{
+    color:#515769;
+    margin-left:100px;
+    margin-top:20px;
+}
